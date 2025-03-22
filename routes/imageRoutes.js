@@ -11,7 +11,8 @@ router.get('/',allImages)
 
 router.delete('/:id',deleteImages)
 
-router.put('/order',imageOrderUpdate)
+router.put('/order',imageOrderUpdate)   // image order
+
 
 
 module.exports = router
